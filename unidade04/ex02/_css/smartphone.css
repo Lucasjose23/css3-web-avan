@@ -1,0 +1,31 @@
+body {   
+    background-color: brown;
+}
+
+/* iPhone 7*/
+@media only screen and (min-width:375px) and (max-width:767px) {
+    h1 {
+        color:white;
+    }
+}
+
+/* iPhone 7 Plus*/
+@media only screen and (min-width:414px) and (max-width:767px) {
+    h1 {
+        color:yellow;
+    }
+}
+
+/* (320x480) Smartphone, Portrait */
+@media only screen and (device-width: 320px) and (orientation: portrait) {
+    h1{
+        color:blue;
+    }
+}
+
+/* (320x480) Smartphone, Landscape */
+@media only screen and (device-width: 480px) and (orientation: landscape) {
+    h1 {
+        color:black;
+    }
+}
